@@ -1,23 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <title></title>
-</head>
-<body>
-    <section class="homeSection section">
-        <div class="centerDiv containerDiv">
-            <div class="boldText">Name: <span class="lightText">name</span></div>
-            <div class="boldText">Student ID: <span class="lightText">name</span></div>
-            <div class="boldText">Disclaimer <span class="lightText">This site is for commercial site offering merchandise for sale</span></div>
-            <div>
-                <a class="btn" href="home.html"> Go to site</a>
+  </head>
+  <body>
+    <header class="header">
+      <div class="navContainer">
+        <!-- lg+ -->
+        <nav class="navBar">
+          <div class="shrink">
+            <a href="#" title="" class="addFlex">
+              <img
+                class="imgClass"
+                src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg"
+                alt=""
+              />
+            </a>
+          </div>
+
+          <button type="button" class="mobileMenu">
+            <!-- Menu open: "hidden", Menu closed: "block" -->
+            <svg
+              class="addSvg"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 8h16M4 16h16"
+              />
+            </svg>
+
+            <!-- Menu open: "block", Menu closed: "hidden" -->
+            <svg
+              class="addSvg"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+
+          <div class="menuList">
+            <a href="products.html" title="" class="menuListText"> Products </a>
+
+            <a href="#" title="" class="menuListText"> Search </a>
+
+            <a href="#" title="" class="menuListText"> About </a>
+
+            <a href="#" title="" class="menuListText"> Contact Us </a>
+          </div>
+
+          <a href="#" title="" class="mobileNavCTA" role="button">
+            My Orders
+          </a>
+        </nav>
+
+        <!-- xs to lg -->
+        <nav class="menu">
+          <div class="flowRoot">
+            <div class="spaceMenuListItem">
+              <a
+                href="products.html"
+                title=""
+                class="inlineMenuListText menuListText"
+              >
+                Products
+              </a>
+
+              <a href="#" title="" class="inlineMenuListText menuListText">
+                Search
+              </a>
+
+              <a href="#" title="" class="inlineMenuListText menuListText">
+                About
+              </a>
+
+              <a href="#" title="" class="inlineMenuListText menuListText">
+                Contact Us
+              </a>
             </div>
+          </div>
+
+          <div class="spacer">
+            <a href="#" title="" class="navCTA" role="button"> My Orders </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="heroSection">
+      <div class="heroContainer">
+        <div class="heroContent">
+          <div>
+            <h2 class="heroContentTitle">
+              Hey 👋 I am <br class="blocker" />Jenny Carter
+            </h2>
+            <p class="heroContainerText">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+
+            <p class="heroContentTextTwo">
+              <span class="blockerTwo">
+                <span class="questionSpan"></span>
+                <span class="Position"> Have a question? </span>
+              </span>
+              <br class="blocker" />Ask me on
+              <a href="#" title="" class="Transition">Twitter</a>
+            </p>
+          </div>
+
+          <div class="Position">
+            <img
+              class="imgStyleOne"
+              src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg"
+              alt=""
+            />
+
+            <img
+              class="imgStyleTwo"
+              src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/business-woman.png"
+              alt=""
+            />
+          </div>
         </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>

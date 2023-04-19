@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,15 +9,135 @@
     <title></title>
 </head>
 <body>
-    <section class="enterSection section">
-        <div class="centerDiv containerDiv">
-            <div class="boldText">Name: <span class="lightText">name</span></div>
-            <div class="boldText">Student ID: <span class="lightText">name</span></div>
-            <div class="boldText">Disclaimer <span class="lightText">This site is for commercial site offering merchandise for sale</span></div>
-            <div>
-                <a class="btn" href="home.html"> Go to site</a>
+
+
+    <header class="header">
+      <div class="navContainer">
+        <!-- lg+ -->
+        <nav class="navBar">
+          <div class="shrink">
+            <a href="#" title="" class="addFlex">
+              <img
+                class="imgClass"
+                src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg"
+                alt=""
+              />
+            </a>
+          </div>
+
+          <button type="button" class="mobileMenu">
+            <!-- Menu open: "hidden", Menu closed: "block" -->
+            <svg
+              class="addSvg"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 8h16M4 16h16"
+              />
+            </svg>
+
+            <!-- Menu open: "block", Menu closed: "hidden" -->
+            <svg
+              class="addSvg"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+
+          <div class="menuList">
+            <a href="products.html" title="" class="menuListText"> Products </a>
+
+            <a href="#" title="" class="menuListText"> Search </a>
+
+            <a href="#" title="" class="menuListText"> About </a>
+
+            <a href="#" title="" class="menuListText"> Contact Us </a>
+          </div>
+
+          <a href="#" title="" class="mobileNavCTA" role="button">
+            My Orders
+          </a>
+        </nav>
+
+        <!-- xs to lg -->
+        <nav class="menu">
+          <div class="flowRoot">
+            <div class="spaceMenuListItem">
+              <a
+                href="products.html"
+                title=""
+                class="inlineMenuListText menuListText"
+              >
+                Products
+              </a>
+
+              <a href="#" title="" class="inlineMenuListText menuListText">
+                Search
+              </a>
+
+              <a href="#" title="" class="inlineMenuListText menuListText">
+                About
+              </a>
+
+              <a href="#" title="" class="inlineMenuListText menuListText">
+                Contact Us
+              </a>
             </div>
+          </div>
+
+          <div class="spacer">
+            <a href="#" title="" class="navCTA" role="button"> My Orders </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="productSection">
+    <div class="productContainer">
+        <div class="productTitleContainer">
+            <h1 class="procustHeader">product</h1>
+
+            <p class="productDisc">
+                All available games
+            </p>
         </div>
-    </section>
+
+        <div class="productItemContainer">
+            <div>
+                <img class="productImage" src="https://images.unsplash.com/photo-1644018335954-ab54c83e007f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+
+                <div class="productItemContent">
+                    <p class="productItemText">
+                       Teken
+                    </p>
+
+                     <p class="productDiscTwo">
+                        Awesome short description fro the game 
+                    </p>
+
+                    <p class="productPrice">N3,000</p>
+                    <a href="home.html" title="" class="btn noMargin buyNow" role="button">
+                        Buy
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 </body>
 </html>
